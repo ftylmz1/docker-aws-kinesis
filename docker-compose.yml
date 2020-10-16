@@ -1,0 +1,5 @@
+version: "3.8"
+services: 
+    aws-agent:
+        build: .
+        image: aws-kinesis
